@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 public class FeedbackService {
 
     public String getFeedback() {
+        System.out.println("good app");
         return "good app";
     }
 
